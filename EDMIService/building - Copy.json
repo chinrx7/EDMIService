@@ -1,0 +1,214 @@
+﻿{
+	"BUILDING" : [
+		{
+		   "PLANTID" : "206503965",
+		   "NAME" : "คณะICT  (Sub 4)",
+		   "CHMIMAP" : "M201",
+		   "TYPE" : "Mahidol Mk6N 2 Ch"
+		},
+		{
+		   "PLANTID" : "211647120",
+		   "NAME" : "อ.สิริวิทยา",
+		   "CHMIMAP" : "M202",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "212295995",
+		   "NAME" : "อ.ภูมิทัศน์",
+		   "CHMIMAP" : "M203",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "212296402",
+		   "NAME" : "กองกายภาพและสิ่งแวดล้อม",
+		   "CHMIMAP" : "M204",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "212648192",
+		   "NAME" : "อ.จอดรถมหิดลสิทธาคาร",
+		   "CHMIMAP" : "M205",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "213140617",
+		   "NAME" : "หอพักนักศึกษา11",
+		   "CHMIMAP" : "M206",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "213140625",
+		   "NAME" : "ส.วิจัยและพัฒนาวิทย์",
+		   "CHMIMAP" : "M207",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "213140626",
+		   "NAME" : "อ.อทิตยาธร",
+		   "CHMIMAP" : "M208",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "213141264",
+		   "NAME" : "คณะสังคมศาสตร์ อาคาร 1, 2, 3",
+		   "CHMIMAP" : "M209",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "213141293",
+		   "NAME" : "อ.เพื่อการเลี้ยงและใช้สัตว์ฯ",
+		   "CHMIMAP" : "M210",
+		   "TYPE" : "Mahidol Mk6N"
+		},
+		{
+		   "PLANTID" : "216825387",
+		   "NAME" : "รร.สาธิตนานาชาติ",
+		   "CHMIMAP" : "M211",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "219150832",
+		   "NAME" : "Co-Working",
+		   "CHMIMAP" : "M212",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613872",
+		   "NAME" : "อ.คณะวิทยาศาสตร์ 3-4",
+		   "CHMIMAP" : "M213",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613875",
+		   "NAME" : "ว.ศาสนศึกษา",
+		   "CHMIMAP" : "M214",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613876",
+		   "NAME" : "อ.สถาบันวิจัยภาษา",
+		   "CHMIMAP" : "M215",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613877",
+		   "NAME" : "ส.พัฒนาสุขภาพอาเซียน",
+		   "CHMIMAP" : "M216",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613878",
+		   "NAME" : "คณะวิทยาศาสตร์ 1-2",
+		   "CHMIMAP" : "M217",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613883",
+		   "NAME" : "หอพักนักศึกษาพยาบาลฯ",
+		   "CHMIMAP" : "M218",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613885",
+		   "NAME" : "สำนักงานอธิการบดี (OP)",
+		   "CHMIMAP" : "M219",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613886",
+		   "NAME" : "อ.ปฏิบัติการคณะวิศวกรรม",
+		   "CHMIMAP" : "M220",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613887",
+		   "NAME" : "ศูนย์การเรียนรู้มหิดล (MLC)",
+		   "CHMIMAP" : "M221",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613889",
+		   "NAME" : "คณะสิ่งแวดล้อม",
+		   "CHMIMAP" : "M222",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613890",
+		   "NAME" : "อ.Pilot Plant",
+		   "CHMIMAP" : "M223",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613892",
+		   "NAME" : "อ.เรียนรวมนักศึกษาพยาบาล",
+		   "CHMIMAP" : "M224",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613894",
+		   "NAME" : "ส.วิจัยและโภชนาการ (Main)",
+		   "CHMIMAP" : "M225",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613897",
+		   "NAME" : "อ.แบตมินตัน",
+		   "CHMIMAP" : "M226",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613929",
+		   "NAME" : "หอพักนักศึกษา10 (ลิลาวดี)",
+		   "CHMIMAP" : "M227",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613951",
+		   "NAME" : "ส.แห่งชาติเพื่อพัฒนาเด็กฯ",
+		   "CHMIMAP" : "M228",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613952",
+		   "NAME" : "ศูนย์สัตว์ทดลองแห่งชาติ",
+		   "CHMIMAP" : "M229",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613953",
+		   "NAME" : "สำนักหอสมุด",
+		   "CHMIMAP" : "M230",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613959",
+		   "NAME" : "สถาบันวิจัยประชากรฯ",
+		   "CHMIMAP" : "M231",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613963",
+		   "NAME" : "สระว่ายน้ำ",
+		   "CHMIMAP" : "M232",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250613965",
+		   "NAME" : "คณะกายภาพบำบัด",
+		   "CHMIMAP" : "M233",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "250653671",
+		   "NAME" : "Unitsub สนามตระกร้อ",
+		   "CHMIMAP" : "M234",
+		   "TYPE" : "Mahidol Mk10E"
+		},
+		{
+		   "PLANTID" : "251342052",
+		   "NAME" : "อ.เอนกประสงค์ (โรงยิม)",
+		   "CHMIMAP" : "M235",
+		   "TYPE" : "Mahidol Mk10E"
+		}
+	]
+}
