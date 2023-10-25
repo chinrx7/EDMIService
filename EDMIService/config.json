@@ -1,10 +1,10 @@
 ﻿{
   "Setting": {
-    "BaseUri": "http://mahidolamr.3bbddns.com:38711",
+    "BaseUri": "http://muamr.3bbddns.com:47101",
     "LoadProfileUri": "/api/measuredData/loadProfile/plantNumber/",
     "LoadTOUri": "/api/measuredData/timeOfUse/plantNumber/",
     "LoadDeviceUri": "/api/fleetManagement/devices",
-    "AuthUri" : "/api/system/authToken",
+    "AuthUri": "/api/system/authToken",
     "Username": "SPP6WebAPI",
     "Password": "SPP62022WebAPI",
     "CHMI_HOST": "192.168.57.222:9000",

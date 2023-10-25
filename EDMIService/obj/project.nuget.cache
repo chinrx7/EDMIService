@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YUqMdtl4JbkIsh/2HmLEF0NgCcMr+uXpZce3Yls4cb4ySdkqtezEe7cVEHbdyT6U+txM/2C5ywo4oOkOGbFpRA==",
+  "dgSpecHash": "/tdZ3RpJ6LmdZthGdeiumSz5JM4CesGih2+c2jyFJUH04o0diFewVlSA0cF8ZGgw+lwoani+yrWAk1EUaFJobQ==",
   "success": true,
-  "projectFilePath": "C:\\PVV\\EDMIService\\EDMIService\\EDMIService.csproj",
+  "projectFilePath": "C:\\Users\\sysadmin\\Documents\\EDMIService\\EDMIService\\EDMIService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sysadmin\\.nuget\\packages\\acidic.extensions.configuration.binder\\1.0.0\\acidic.extensions.configuration.binder.1.0.0.nupkg.sha512",
     "C:\\Users\\sysadmin\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

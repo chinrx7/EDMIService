@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PVV\\EDMIService\\EDMIService\\EDMIService.csproj": {}
+    "C:\\Users\\sysadmin\\Documents\\EDMIService\\EDMIService\\EDMIService.csproj": {}
   },
   "projects": {
-    "C:\\PVV\\EDMIService\\EDMIService\\EDMIService.csproj": {
+    "C:\\Users\\sysadmin\\Documents\\EDMIService\\EDMIService\\EDMIService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PVV\\EDMIService\\EDMIService\\EDMIService.csproj",
+        "projectUniqueName": "C:\\Users\\sysadmin\\Documents\\EDMIService\\EDMIService\\EDMIService.csproj",
         "projectName": "EDMIService",
-        "projectPath": "C:\\PVV\\EDMIService\\EDMIService\\EDMIService.csproj",
+        "projectPath": "C:\\Users\\sysadmin\\Documents\\EDMIService\\EDMIService\\EDMIService.csproj",
         "packagesPath": "C:\\Users\\sysadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\PVV\\EDMIService\\EDMIService\\obj\\",
+        "outputPath": "C:\\Users\\sysadmin\\Documents\\EDMIService\\EDMIService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sysadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",

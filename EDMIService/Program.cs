@@ -308,7 +308,7 @@ namespace EDMIService
                 var res = client.GetAsync(ReqUri);
 
 
-                if (res.Result.IsSuccessStatusCode)
+                if (res.Result.StatusCode == HttpStatusCode.OK)
                 {
                     var Con = await res.Result.Content.ReadAsStringAsync();
                     dynamic json = JObject.Parse(Con);
