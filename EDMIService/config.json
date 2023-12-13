@@ -7,7 +7,7 @@
     "AuthUri": "/api/system/authToken",
     "Username": "SPP6WebAPI",
     "Password": "SPP62022WebAPI",
-    "CHMI_HOST": "192.168.57.222:9000",
+    "CHMI_HOST": "192.168.111.11:9000",
     "ReadInterval": "15",
     "Debug": "1"
   }

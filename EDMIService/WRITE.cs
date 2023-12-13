@@ -69,7 +69,10 @@ namespace EDMIService
                 }
 
                 string WParam = string.Format(ItemFormat, dr["ChmiMap"].ToString(), dr["Param"].ToString());
-                WriteToAPI(records, WParam);
+                if (dr["TouRate"].ToString() == "TOTAL")
+                {
+                    WriteToAPI(records, WParam);
+                }
             }
         }
         public static void ReceiveData(DataSet datas)
@@ -155,7 +158,7 @@ namespace EDMIService
                 //Console.WriteLine("Res: " + res);
             }
 
-            Util.Logging("Write To API", "Success");
+            //Util.Logging("Write To API", "Success");
          }
 
         }

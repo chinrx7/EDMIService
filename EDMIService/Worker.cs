@@ -21,8 +21,8 @@ namespace EDMIService
 
         protected  override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            int interval = Program._settings.ReadInterval * 60 * 1000;
-            //interval = 150000;
+            //int interval = Program._settings.ReadInterval * 60 * 1000;
+            int interval = 20000;
 
             while (!stoppingToken.IsCancellationRequested)
             {

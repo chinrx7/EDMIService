@@ -230,11 +230,22 @@ namespace EDMIService
 
             var building = jtk.ToObject<BUILDING[]>();
 
+            int i = 0;
             foreach (var bd in building)
             {
+                i++;
+                //Util.Logging("xx", i.ToString());
                 if (checkTouDate())
                 {
-                    LoadTOU(bd.PLANTID, bd.CHMIMAP, bd.TYPE);
+                    try
+                    {
+                        LoadTOU(bd.PLANTID, bd.CHMIMAP, bd.TYPE);
+                        if (i == building.Length)
+                        {
+                            SetReadTime(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), "read2");
+                        }
+                    }
+                    catch (Exception ex) { Util.Logging("Load Tou", ex.Message); }
                 }
                 try
                 {
@@ -380,12 +391,12 @@ namespace EDMIService
                         Util.Logging("Loadprofile", ex.Message);
                     }
 
-                    Util.Logging("LoadProfile", PlantID + " Get response success");
+                    //Util.Logging("LoadProfile", PlantID + " Get response success");
                 }
                 else
                 {
                     var err = await res.Result.Content.ReadAsStringAsync();
-                    Util.Logging("LoadProfile", PlantID + " Get response unsuccess");
+                    // Util.Logging("LoadProfile", PlantID + " Get response unsuccess");
                 }
             }
         }
@@ -405,10 +416,11 @@ namespace EDMIService
             ds2.Tables[0].Columns.Add("ChmiMap");
             ds2.Tables[0].Columns.Add("Type");
             ds2.Tables[0].Columns.Add("Policy");
+            ds2.Tables[0].Columns.Add("TouRate");
 
             DateTime StartDate, EndDate;
             StartDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
-            EndDate = StartDate.AddMonths(1).AddDays(-1);
+            EndDate = StartDate.AddDays(1);
 
             using (var client = new HttpClient())
             {
@@ -417,7 +429,9 @@ namespace EDMIService
                 client.DefaultRequestHeaders.Add("Authorization", "AuthToken \"Token = " + Utoken + "\"");
 
                 string UriForm = _settings.BaseUri + _settings.LoadTOUri + "{0}?startDate={1}&endDate={2}";
-                var ReqUri = string.Format(UriForm, PlantID, StartDate.ToString("MM/dd/yyyy HH:mm:ss"), EndDate.ToString("MM/dd/yyyy HH:mm:ss"));
+                var ReqUri = string.Format(UriForm, PlantID, StartDate.ToString("d-MMM-yyyy"), EndDate.ToString("d-MMM-yyyy"));
+
+                //var ReqUri = string.Format(UriForm, PlantID, "1-Nov-2023", "2-Nov-2023");
 
                 var res = client.GetAsync(ReqUri);
 
@@ -427,32 +441,37 @@ namespace EDMIService
                     dynamic json = JObject.Parse(Con);
                     //dynamic json = (JObject)JsonConvert.DeserializeObject(Con);
 
-
-                    JToken jToken = json["registerDataSets"][0]["registers"];
-                    //var regis = jToken.ToObject<registers>();
-
-                    var myobjList = JsonConvert.DeserializeObject<List<registers>>(jToken.ToString());
-                    DateTime dateTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
-                    dateTime.AddMonths(-1);
-                    for (int i = 0; i < myobjList.Count; i++)
+                    try
                     {
-                        DataRow dr = ds2.Tables[0].NewRow();
-                        dr["TIMESTAMP"] = dateTime.ToString("yyyy-MM-01 00:00:00");
-                        dr["Param"] = myobjList[i].units;
-                        dr["Direction"] = myobjList[i].flowDirection;
-                        dr["Phase"] = myobjList[i].phase;
-                        dr["value"] = myobjList[i].registerValue.value;
-                        dr["PlantID"] = PlantID;
-                        dr["ChmiMap"] = ChmiMap;
-                        dr["Type"] = Type;
-                        dr["Policy"] = myobjList[i].apportionPolicy;
-                        ds2.Tables[0].Rows.Add(dr);
-                        //Console.WriteLine(myobjList[i].units + " " + myobjList[i].flowDirection + " " + myobjList[i].registerValue.value);
-                    }
+                        JToken jToken = json["registerDataSets"][0]["registers"];
 
-                    WRITE.ReceiveData2(ds2);
-                    SetReadTime(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), "read2");
-                    Util.Logging("LOAD TOU", "SUCCESS");
+                        //var regis = jToken.ToObject<registers>();
+
+                        var myobjList = JsonConvert.DeserializeObject<List<registers>>(jToken.ToString());
+                        DateTime dateTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+                        dateTime.AddMonths(-1);
+                        for (int i = 0; i < myobjList.Count; i++)
+                        {
+                            DataRow dr = ds2.Tables[0].NewRow();
+                            dr["TIMESTAMP"] = dateTime.ToString("yyyy-MM-01 00:00:00");
+                            dr["Param"] = myobjList[i].units;
+                            dr["Direction"] = myobjList[i].flowDirection;
+                            dr["Phase"] = myobjList[i].phase;
+                            dr["value"] = myobjList[i].registerValue.value;
+                            dr["PlantID"] = PlantID;
+                            dr["ChmiMap"] = ChmiMap;
+                            dr["Type"] = Type;
+                            dr["Policy"] = myobjList[i].apportionPolicy;
+                            dr["TouRate"] = myobjList[i].touRate;
+                            ds2.Tables[0].Rows.Add(dr);
+                            //Console.WriteLine(myobjList[i].units + " " + myobjList[i].flowDirection + " " + myobjList[i].registerValue.value);
+                        }
+
+                        WRITE.ReceiveData2(ds2);
+                    }
+                    catch (Exception ex) { Util.Logging("TOU", ex.Message + " " + ChmiMap); }
+                    // SetReadTime(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), "read2");
+                    //Util.Logging("LOAD TOU", "SUCCESS");
                 }
 
             }
