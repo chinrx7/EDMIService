@@ -44,7 +44,7 @@ namespace EDMIService
             {
                 List<Records> records = new List<Records>();
                 var rec = new Records();
-                rec.Timestamp = d.ToString("yyyy-MM-dd");
+                rec.Timestamp = d.ToString("yyyy-MM-01");
                 rec.Value = dr["value"].ToString();
                 rec.Quality = "Good";
                 records.Add(rec);
