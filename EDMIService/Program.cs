@@ -139,7 +139,14 @@ namespace EDMIService
 
         private static void _Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            DoWork();
+            try
+            {
+                DoWork();
+            }
+            catch (Exception ex)
+            {
+                Util.Logging("Timer", ex.Message);
+            }
         }
 
         public static void DoWork()
