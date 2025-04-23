@@ -1,208 +1,208 @@
 ﻿{
-  "BUILDING": [
-    {
-      "PLANTID": "211647120",
-      "NAME": "อาคารสิริวิทยา มหาวิทยาลัยมหิดล",
-      "CHMIMAP": "M201",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613887",
-      "NAME": "ศูนย์การเรียนรู้มหิดล",
-      "CHMIMAP": "M202",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250653671",
-      "NAME": "ลานจอดรถ 5+สนามตะกร้อ",
-      "CHMIMAP": "M203",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "212296402",
-      "NAME": "ลานจอดรถ 3 (ข้างอาคารศาลายา)",
-      "CHMIMAP": "M204",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "212295995",
-      "NAME": "สระน้ำหลังสนามฟุตบอล+อาคารอนุรักษ์สิ่งแวดล้อม",
-      "CHMIMAP": "M205",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613959",
-      "NAME": "สถาบันวิจัยประชากรและสังคม",
-      "CHMIMAP": "M206",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613885",
-      "NAME": "สํานักงานอธิการบดี",
-      "CHMIMAP": "M207",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613894",
-      "NAME": "สถาบันโภชนาการ",
-      "CHMIMAP": "M208",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613952",
-      "NAME": "ศูนย์สัตว์ทดลองแห่งชาติ",
-      "CHMIMAP": "M209",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "213140625",
-      "NAME": "สถาบันชีววิทยาศาสตร์โมเลกุล อาคารด้านหน้า",
-      "CHMIMAP": "M210",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "213141293",
-      "NAME": "สถาบันชีววิทยาศาสตร์โมเลกุล อาคารด้านหลัง",
-      "CHMIMAP": "M211",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "213140626",
-      "NAME": "อาคารอาทิตยาทร",
-      "CHMIMAP": "M212",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613876",
-      "NAME": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย",
-      "CHMIMAP": "M214",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613890",
-      "NAME": "อาคารนวัตกรรมชีวภัณฑ์มหิดล",
-      "CHMIMAP": "M215",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613878",
-      "NAME": "คณะวิทยาศาสตร์ อาคาร 1-2",
-      "CHMIMAP": "M216",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613872",
-      "NAME": "คณะวิทยาศาสตร์ อาคาร 3-4",
-      "CHMIMAP": "M217",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613892",
-      "NAME": "อาคารโรงเรียนพยาบาลรามาธิบดี โรงพยาบาลรามาธิบดี",
-      "CHMIMAP": "M218",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613883",
-      "NAME": "อาคารหอพักโรงเรียนพยาบาลรามาธิบดี",
-      "CHMIMAP": "M219",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "206503965",
-      "NAME": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
-      "CHMIMAP": "M220",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613877",
-      "NAME": "สถาบันพัฒนาสุขภาพอาเซียน",
-      "CHMIMAP": "M223",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613953",
-      "NAME": "หอสมุดและคลังความรู้มหาวิทยาลัยมหิดล",
-      "CHMIMAP": "M224",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613886",
-      "NAME": "คณะวิศวกรรมศาสตร์1",
-      "CHMIMAP": "M227",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613929",
-      "NAME": "หอพักนักศึกษา 10 ",
-      "CHMIMAP": "M229",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "213140617",
-      "NAME": "หอพักนักศึกษา 11",
-      "CHMIMAP": "M230",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613897",
-      "NAME": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา อาคาร 1",
-      "CHMIMAP": "M231",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "251342052",
-      "NAME": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา อาคาร 2",
-      "CHMIMAP": "M232",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613963",
-      "NAME": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา อาคาร 3",
-      "CHMIMAP": "M233",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613880",
-      "NAME": "อาคารระบบประปา มหาวิทยาลัยมหิดล",
-      "CHMIMAP": "M234",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613889",
-      "NAME": "คณะสิ่งแวดล้อมและทรัพยากรศาสตร์ อาคาร 3",
-      "CHMIMAP": "M235",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "216825387",
-      "NAME": "อาคารโรงเรียนสาธิตนานาชาติ มหาวิทยาลัยมหิดล",
-      "CHMIMAP": "M236",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "212648192",
-      "NAME": "อาคารจอดรถมหิดลสิทธาคาร",
-      "CHMIMAP": "M237",
-      "TYPE": "EDMI Mk6/Mk6N"
-    },
-    {
-      "PLANTID": "250613965",
-      "NAME": "อาคารคณะกายภาพบําบัด+Floating",
-      "CHMIMAP": "M238",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613875",
-      "NAME": "วิทยาลัยศาสนศึกษา",
-      "CHMIMAP": "M239",
-      "TYPE": "EDMI Mk10E"
-    },
-    {
-      "PLANTID": "250613951",
-      "NAME": "อาคารสถาบันแห่งชาติเพื่อการพัฒนาเด็กและครอบครัว",
-      "CHMIMAP": "M241",
-      "TYPE": "EDMI Mk10E"
-    }
-  ]
+	"BUILDING": [
+		{
+			"PLANTID": "4M-17",
+			"NAME": "อาคารสิริวิทยา มหาวิทยาลัยมหิดล",
+			"CHMIMAP": "M201",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "4M-16",
+			"NAME": "ศูนย์การเรียนรู้มหิดล",
+			"CHMIMAP": "M202",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "2M-32",
+			"NAME": "ลานจอดรถ 5+สนามตะกร้อ",
+			"CHMIMAP": "M203",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-22",
+			"NAME": "ลานจอดรถ 3 (ข้างอาคารศาลายา)",
+			"CHMIMAP": "M204",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "2M-05",
+			"NAME": "สระน้ำหลังสนามฟุตบอล+อาคารอนุรักษ์สิ่งแวดล้อม",
+			"CHMIMAP": "M205",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "4M-35",
+			"NAME": "สถาบันวิจัยประชากรและสังคม",
+			"CHMIMAP": "M206",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-33",
+			"NAME": "สํานักงานอธิการบดี",
+			"CHMIMAP": "M207",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-25",
+			"NAME": "สถาบันโภชนาการ",
+			"CHMIMAP": "M208",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "2M-02",
+			"NAME": "ศูนย์สัตว์ทดลองแห่งชาติ",
+			"CHMIMAP": "M209",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-37",
+			"NAME": "สถาบันชีววิทยาศาสตร์โมเลกุล อาคารด้านหน้า",
+			"CHMIMAP": "M210",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "4M-38",
+			"NAME": "สถาบันชีววิทยาศาสตร์โมเลกุล อาคารด้านหลัง",
+			"CHMIMAP": "M211",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "2M-30",
+			"NAME": "อาคารอาทิตยาทร",
+			"CHMIMAP": "M212",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "2M-17",
+			"NAME": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย",
+			"CHMIMAP": "M214",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-36",
+			"NAME": "อาคารนวัตกรรมชีวภัณฑ์มหิดล",
+			"CHMIMAP": "M215",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "2M-16",
+			"NAME": "คณะวิทยาศาสตร์ อาคาร 1-2",
+			"CHMIMAP": "M216",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "2M-13",
+			"NAME": "คณะวิทยาศาสตร์ อาคาร 3-4",
+			"CHMIMAP": "M217",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-19",
+			"NAME": "อาคารโรงเรียนพยาบาลรามาธิบดี โรงพยาบาลรามาธิบดี",
+			"CHMIMAP": "M218",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-18",
+			"NAME": "อาคารหอพักโรงเรียนพยาบาลรามาธิบดี",
+			"CHMIMAP": "M219",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "2M-26_4",
+			"NAME": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+			"CHMIMAP": "M220",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "2M-31",
+			"NAME": "สถาบันพัฒนาสุขภาพอาเซียน",
+			"CHMIMAP": "M223",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "2M-26",
+			"NAME": "หอสมุดและคลังความรู้มหาวิทยาลัยมหิดล",
+			"CHMIMAP": "M224",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-32",
+			"NAME": "คณะวิศวกรรมศาสตร์1",
+			"CHMIMAP": "M227",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-10",
+			"NAME": "หอพักนักศึกษา 10 ",
+			"CHMIMAP": "M229",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-09",
+			"NAME": "หอพักนักศึกษา 11",
+			"CHMIMAP": "M230",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "4M-03_1",
+			"NAME": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา อาคาร 1",
+			"CHMIMAP": "M231",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-07",
+			"NAME": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา อาคาร 2",
+			"CHMIMAP": "M232",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-08",
+			"NAME": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา อาคาร 3",
+			"CHMIMAP": "M233",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-24",
+			"NAME": "อาคารระบบประปา มหาวิทยาลัยมหิดล",
+			"CHMIMAP": "M234",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-28",
+			"NAME": "คณะสิ่งแวดล้อมและทรัพยากรศาสตร์ อาคาร 3",
+			"CHMIMAP": "M235",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-06",
+			"NAME": "อาคารโรงเรียนสาธิตนานาชาติ มหาวิทยาลัยมหิดล",
+			"CHMIMAP": "M236",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "2M-12",
+			"NAME": "อาคารจอดรถมหิดลสิทธาคาร",
+			"CHMIMAP": "M237",
+			"TYPE": "EDMI Mk6/Mk6N"
+},
+{
+			"PLANTID": "4M-21",
+			"NAME": "อาคารคณะกายภาพบําบัด+Floating",
+			"CHMIMAP": "M238",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-02",
+			"NAME": "วิทยาลัยศาสนศึกษา",
+			"CHMIMAP": "M239",
+			"TYPE": "EDMI Mk10E"
+},
+{
+			"PLANTID": "4M-03",
+			"NAME": "อาคารสถาบันแห่งชาติเพื่อการพัฒนาเด็กและครอบครัว",
+			"CHMIMAP": "M241",
+			"TYPE": "EDMI Mk10E"
+}
+	]
 }

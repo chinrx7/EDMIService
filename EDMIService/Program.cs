@@ -488,7 +488,9 @@ namespace EDMIService
         {
             bool res = false;
             DateTime fTime = DateTime.Parse(GetReadTime("read2"));
-            if (fTime.ToString("MMM") != DateTime.Now.ToString("MMM"))
+            string f1 = fTime.ToString("MMM-yy");
+            string f2 = DateTime.Now.ToString("MMM-yy");
+            if (f1 != f2)
             {
                 res = true;
             }
